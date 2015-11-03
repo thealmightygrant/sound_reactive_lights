@@ -26,9 +26,11 @@ I combined this code with some original work from myself and some embedded wizar
 
 ## License
 
-This code is free for use by anyone that so desires to use it for anything that they would like as long as it follows the original restrictions set forth in the [Artistic License 2.0](http://opensource.org/licenses/artistic-license-2.0) that I modified the original code from. 
+_This code is free for use by anyone that so desires to use it for anything that they would like as long as it follows the original restrictions set forth in the wide variety of licenses below._
 
-In addition, below is the copyright included with the use of the FHT for frequency analysis from which I based most of the Arduino ATMega2560 code on.
+The original code for the colors followed the [Artistic License 2.0](http://opensource.org/licenses/artistic-license-2.0).
+
+_Below is the copyright included with the use of the FHT for frequency analysis from which I based most of the Arduino ATMega2560 code on._
 
 This code uses the [Arduino FHT library from OpenMusicLabs](http://wiki.openmusiclabs.com/wiki/ArduinoFHT).  That library is copyright by it's respective owner.  The code here is also includes portions from the [AnalogIsrLogger program](http://code.google.com/p/beta-lib/downloads/list). These libraries are copyright by their respective owners.  No license was provided.
 
