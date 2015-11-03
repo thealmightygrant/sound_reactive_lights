@@ -1,6 +1,22 @@
 ## Sound Reactive LED Strips
 
-I set this up for my buddies at the Embassy, a camp at Burning Man 2015. We strung 5 sets of LED strips off of PVC ribs on our largest quonset. I used [this tutorial](https://learn.adafruit.com/rgb-led-strips/usage) to develop a power board.
+I set this up for my buddies at the Embassy, a camp at Burning Man 2015. We strung 5 sets of [5 meter LED strips](http://www.amazon.com/gp/product/B00B2F3KDQ) off of PVC ribs on our largest quonset.
+
+## Parts and Hardware
+
+### Power Board
+I used [this tutorial](https://learn.adafruit.com/rgb-led-strips/usage) to develop a power board. I was able to run about 15A of average current through 3 NPN transistors. I then strung 5 strands of 14 gauge wire from each transistor as well as 5 strands of wire from the power output of [a "30A" AC to DC power supply](http://www.amazon.com/SUPERNIGHT-Switch-Power-Supply-Switching/dp/B00ADGMGEO) running from a generator.
+
+### Sound Detection
+I used the [Sparkfun Sound Detector](https://www.sparkfun.com/products/12642) to pickup the signal from which I used the straight audio signal as the analog input to the Arduino.
+
+### Signal Processing and Color Computation
+
+An Arduino ATMega2560 was used as the development platform. I used a 9V battery as the power source in order to reduce the chatter in the signal that would result from using the power output from a DC power supply.
+
+## Algorithm Design
+
+The signal is run through an [FHT](http://wiki.openmusiclabs.com/wiki/ArduinoFHT), a cousin of the FFT, and then low pass filtered and used along with user input to create a color in hue, saturation, and value color space.
 
 ## Thanks
 
