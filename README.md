@@ -4,7 +4,7 @@ I set this up for my buddies at the Embassy, a camp at Burning Man 2015. We stru
 
 ## Thanks
 
-The original code was modified from a [tutorial](https://bochovj.wordpress.com/2013/09/14/lightbox-a-vj-oriented-leds-controller/) by Sario Salvi. This code had an Artistic License 2.0, which is reference below.
+The original code was modified from a [tutorial](https://bochovj.wordpress.com/2013/09/14/lightbox-a-vj-oriented-leds-controller/) by Sario Salvi. This code had an Artistic License 2.0, which is referenced below.
 
 I combined this code with some original work from myself and some embedded wizardry from [this tutorial](http://vtchl.uiuc.edu/node/557) by Ven Te Chow Hydrosystems Lab at the University of Illinois.
 
